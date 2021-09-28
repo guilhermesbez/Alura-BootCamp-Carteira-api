@@ -19,7 +19,7 @@ import br.com.alura.carteira.service.UsuarioService;
 @RequestMapping("/usuarios")
 public class UsuarioController {
 
-	@Autowired // new na classe automaticamente
+	@Autowired
 	private UsuarioService service;
 
 	@GetMapping

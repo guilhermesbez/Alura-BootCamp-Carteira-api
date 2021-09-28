@@ -16,7 +16,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-//Classe cópia do Objeto e devolve para o controller apenas os atributos desejados/Representar apenas os atributos que desejar
 public class TransacaoFormDto {
 	
 	@NotEmpty
