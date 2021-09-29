@@ -17,7 +17,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class TransacaoFormDto {
-	
+
 	@NotEmpty
 	@NotNull
 	@Size(min = 5, max = 6)
