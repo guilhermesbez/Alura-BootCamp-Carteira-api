@@ -13,6 +13,7 @@ public class UsuarioFormDto {
 	@NotBlank
 	@Size(min = 1, max = 140)
 	private String nome;
+	
 	@NotBlank
 	@Size(min = 1, max = 140)
 	private String login;
